@@ -1,0 +1,125 @@
+﻿-- Declare variables to store Publisher IDs
+DECLARE @TaifUniversityId BIGINT;
+DECLARE @SaudiEndodonticSocietyId BIGINT;
+DECLARE @TaibahUniversityId BIGINT;
+DECLARE @QassimUniversityId BIGINT;
+DECLARE @SaudiAnaestheticAssociationId BIGINT;
+DECLARE @SaudiThoracicSocietyId BIGINT;
+DECLARE @SaudiArmedForcesHospitalId BIGINT;
+DECLARE @SaudiJournalSportsMedicineId BIGINT;
+DECLARE @SaudiGastroenterologyAssociationId BIGINT;
+DECLARE @SaudiCenterOrganTransplantationId BIGINT;
+DECLARE @SaudiPharmaceuticalSocietyId BIGINT;
+DECLARE @SaudiOphthalmologicalSocietyId BIGINT;
+DECLARE @SaudiHeartAssociationId BIGINT;
+DECLARE @SaudiDentalSocietyId BIGINT;
+DECLARE @KingFaisalHospitalId BIGINT;
+DECLARE @RiyadhAlKharjHospitalId BIGINT;
+DECLARE @SaudiNationalGuardId BIGINT;
+
+-- Insert Publishers and capture their IDs
+INSERT INTO Publishers (Name) VALUES ('Taif University');
+SET @TaifUniversityId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Endodontic Society');
+SET @SaudiEndodonticSocietyId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Taibah University');
+SET @TaibahUniversityId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Qassim University');
+SET @QassimUniversityId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Anaesthetic Association');
+SET @SaudiAnaestheticAssociationId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Thoracic Society');
+SET @SaudiThoracicSocietyId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Arabian Armed Forces Hospital');
+SET @SaudiArmedForcesHospitalId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Journal of Sports Medicine');
+SET @SaudiJournalSportsMedicineId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Gastroenterology Association');
+SET @SaudiGastroenterologyAssociationId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Center for Organ Transplantation');
+SET @SaudiCenterOrganTransplantationId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Pharmaceutical Society');
+SET @SaudiPharmaceuticalSocietyId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Ophthalmological Society');
+SET @SaudiOphthalmologicalSocietyId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Heart Association');
+SET @SaudiHeartAssociationId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Dental Society');
+SET @SaudiDentalSocietyId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('King Faisal Specialist Hospital and Research Centre');
+SET @KingFaisalHospitalId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Riyadh Al-Kharj Hospital Programme');
+SET @RiyadhAlKharjHospitalId = SCOPE_IDENTITY();
+
+INSERT INTO Publishers (Name) VALUES ('Saudi Arabian National Guard, Health Affairs');
+SET @SaudiNationalGuardId = SCOPE_IDENTITY();
+
+-- Insert Journals with corresponding Publisher IDs
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Health Sciences', 'SJHS', @TaifUniversityId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Endodontic Journal', 'SEJ', @SaudiEndodonticSocietyId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Taibah University Medical Sciences', 'TUMS', @TaibahUniversityId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Pharmaceutical Sciences', 'SJPS', @QassimUniversityId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Anaesthesia', 'SJA', @SaudiAnaestheticAssociationId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Annals of Thoracic Medicine', 'ATM', @SaudiThoracicSocietyId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Journal of Taibah University Medical Sciences', 'JTUMS', @TaibahUniversityId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Medicine & Medical Sciences', 'SJMMS', @SaudiArmedForcesHospitalId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Sports Medicine', 'SJSM', @SaudiJournalSportsMedicineId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Gastroenterology', 'SJG', @SaudiGastroenterologyAssociationId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Kidney Diseases and Transplantation', 'SJKDT', @SaudiCenterOrganTransplantationId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Pharmaceutical Journal', 'SPJ', @SaudiPharmaceuticalSocietyId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Saudi Journal of Ophthalmology', 'SJO', @SaudiOphthalmologicalSocietyId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Journal of the Saudi Heart Association', 'JSHA', @SaudiHeartAssociationId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('The Saudi Dental Journal', 'SDJ', @SaudiDentalSocietyId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Journal of Medicine and Biomedical Sciences', 'JMBS', @KingFaisalHospitalId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Hematology/Oncology and Stem Cell Therapy', 'HOSCT', @RiyadhAlKharjHospitalId);
+
+INSERT INTO Journals (Title, Code, PublisherId) 
+VALUES ('Journal of Infection and Public Health', 'JIPH', @SaudiNationalGuardId);

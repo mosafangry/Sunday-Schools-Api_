@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Controllers\Tenders.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.16" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+		<ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<EnableDefaultContentItems>false</EnableDefaultContentItems>
+	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="Controllers\" />
+		<Folder Include="MedDRAFiles\" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="MedDRAFiles\**\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="appsettings*.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+﻿
+
+-- Declare variables to store LiteratureReview IDs
+DECLARE @LiteratureReview1Id BIGINT;
+DECLARE @LiteratureReview2Id BIGINT;
+DECLARE @LiteratureReview3Id BIGINT;
+DECLARE @LiteratureReview4Id BIGINT;
+DECLARE @LiteratureReview5Id BIGINT;
+DECLARE @LiteratureReview6Id BIGINT;
+DECLARE @LiteratureReview7Id BIGINT;
+DECLARE @LiteratureReview8Id BIGINT;
+DECLARE @LiteratureReview9Id BIGINT;
+DECLARE @LiteratureReview10Id BIGINT;
+
+-- Insert Literature Reviews and capture their IDs
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Safety Profile of Clopidogrel in Cardiovascular Therapy', '10.1000/pharma2025.001', 'Ahmed, S.; Khan, M.', '45', '3', '123-130', '2025-01-15', 'https://example.com/pdf/clopidogrel_safety.pdf', 'https://example.com/article/clopidogrel_safety', 1, 0, 1);
+SET @LiteratureReview1Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Efficacy of Escitalopram in Major Depressive Disorder', '10.1000/psych2025.002', 'Al-Sayed, H.; Omar, F.', '32', '4', '45-52', '2025-02-10', 'https://example.com/pdf/escitalopram_efficacy.pdf', 'https://example.com/article/escitalopram_efficacy', 0, 1, 2);
+SET @LiteratureReview2Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Vortioxetine in the Treatment of Anxiety Disorders', '10.1000/psych2025.003', 'Ibrahim, A.; Salem, R.', '28', '1', '67-74', '2025-03-01', 'https://example.com/pdf/vortioxetine_anxiety.pdf', 'https://example.com/article/vortioxetine_anxiety', 1, 0, 3);
+SET @LiteratureReview3Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Desloratadine for Allergic Rhinitis: A Review', '10.1000/allergy2025.004', 'Hassan, M.; Noor, L.', '15', '2', '89-95', '2025-04-20', 'https://example.com/pdf/desloratadine_rhinitis.pdf', 'https://example.com/article/desloratadine_rhinitis', 0, 0, 4);
+SET @LiteratureReview4Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Irbesartan in Hypertension Management', '10.1000/cardio2025.005', 'Youssef, K.; Ali, B.', '50', '5', '101-108', '2025-05-12', 'https://example.com/pdf/irbesartan_hypertension.pdf', 'https://example.com/article/irbesartan_hypertension', 1, 1, 5);
+SET @LiteratureReview5Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Bisoprolol in Heart Failure: Clinical Outcomes', '10.1000/cardio2025.006', 'Rahman, T.; Mahmoud, S.', '22', '6', '33-40', '2025-06-05', 'https://example.com/pdf/bisoprolol_heartfailure.pdf', 'https://example.com/article/bisoprolol_heartfailure', 0, 0, 6);
+SET @LiteratureReview6Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Cinacalcet for Secondary Hyperparathyroidism', '10.1000/endo2025.007', 'Faisal, N.; Zaid, A.', '19', '7', '55-62', '2025-07-18', 'https://example.com/pdf/cinacalcet_hyperparathyroidism.pdf', 'https://example.com/article/cinacalcet_hyperparathyroidism', 1, 0, 7);
+SET @LiteratureReview7Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Brexpiprazole as an Adjunct in Schizophrenia', '10.1000/psych2025.008', 'Khalid, M.; Saeed, R.', '36', '8', '77-84', '2025-08-22', 'https://example.com/pdf/brexpiprazole_schizophrenia.pdf', 'https://example.com/article/brexpiprazole_schizophrenia', 0, 1, 8);
+SET @LiteratureReview8Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Linezolid in Resistant Bacterial Infections', '10.1000/infect2025.009', 'Nasser, A.; Hadi, S.', '41', '9', '15-22', '2025-09-10', 'https://example.com/pdf/linezolid_infections.pdf', 'https://example.com/article/linezolid_infections', 1, 0, 9);
+SET @LiteratureReview9Id = SCOPE_IDENTITY();
+
+INSERT INTO LiteratureReviews (Title, DOI, Authors, Volume, Issue, Pages, PublishDate, PdfUrl, ArticleUrl, IsOpenAccess, IsFavorite, JournalId)
+VALUES ('Amlodipine and Perindopril in Cardiovascular Risk Reduction', '10.1000/cardio2025.010', 'Omar, Z.; Karim, L.', '47', '10', '99-106', '2025-10-05', 'https://example.com/pdf/amlodipine_perindopril.pdf', 'https://example.com/article/amlodipine_perindopril', 0, 1, 10);
+SET @LiteratureReview10Id = SCOPE_IDENTITY();
+
+-- Insert Medication associations into LiteratureReviewMedications
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview1Id, 1); -- Clopidogrel
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview2Id, 2); -- Escitalopram 10 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview2Id, 3); -- Escitalopram 20 mg
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview3Id, 4); -- Vortioxetine 10 mg
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview4Id, 6); -- Desloratadine 5 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview4Id, 7); -- Desloratadine 0.5 mg/ml
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview5Id, 8); -- Irbesartan 150 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview5Id, 9); -- Irbesartan 300 mg
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview6Id, 10); -- Bisoprolol 2.5 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview6Id, 11); -- Bisoprolol 5 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview6Id, 12); -- Bisoprolol 10 mg
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview7Id, 16); -- Cinacalcet 30 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview7Id, 17); -- Cinacalcet 60 mg
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview8Id, 20); -- Brexpiprazole 0.25 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview8Id, 21); -- Brexpiprazole 0.5 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview8Id, 22); -- Brexpiprazole 1 mg
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview9Id, 19); -- Linezolid 2 mg
+
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview10Id, 34); -- Amlodipine 10 mg + Perindopril 8 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview10Id, 35); -- Amlodipine 5 mg + Perindopril 4 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview10Id, 36); -- Amlodipine 5 mg + Perindopril 8 mg
+INSERT INTO LiteratureReviewMedications (LiteratureReviewId, MedicationId) VALUES (@LiteratureReview10Id, 37); -- Amlodipine 10 mg + Perindopril 4 mg

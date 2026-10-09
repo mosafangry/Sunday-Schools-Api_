@@ -1,0 +1,304 @@
+{
+  [
+    {
+      "tradeName": "CLOGREL 75 mg",
+      "genericName": "CLOPIDOGREL BISULPHATE EQ. TO CLOPIDOGREL 75 MG"
+    },
+    {
+      "tradeName": "CIPRALEX 10 mg",
+      "genericName": "ESCITALOPRAM 10 MG"
+    },
+    {
+      "tradeName": "CIPRALEX 20 mg",
+      "genericName": "ESCITALOPRAM 20 MG"
+    },
+    {
+      "tradeName": "BRINTELLIX 10 mg",
+      "genericName": "VORTIOXETINE HBR EQ. TO VORTIOXETINE 10 MG"
+    },
+    {
+      "tradeName": "BRINTELLIX 20 mg",
+      "genericName": "DRY ETHANOL EXTRACT OF GINSENG 140 MG/15 ML"
+    },
+    {
+      "tradeName": "DESLIN 5 mg Tabs",
+      "genericName": "DESLORATADINE 5 MG"
+    },
+    {
+      "tradeName": "DESLIN OS",
+      "genericName": "DESLORATADINE 0.5 MG/ML"
+    },
+    {
+      "tradeName": "IRSOTAN 150 mg",
+      "genericName": "IRBESARTAN 150 MG"
+    },
+    {
+      "tradeName": "IRSOTAN 300 mg",
+      "genericName": "IRBESARTAN 300 MG"
+    },
+    {
+      "tradeName": "BISOLOL 2.5 mg",
+      "genericName": "BISOPROLOL FUMARATE 2.5 MG"
+    },
+    {
+      "tradeName": "BISOLOL 5 mg",
+      "genericName": "BISOPROLOL FUMARATE 5 MG"
+    },
+    {
+      "tradeName": "BISOLOL 10 mg",
+      "genericName": "BISOPROLOL FUMARATE 10 MG"
+    },
+    {
+      "tradeName": "ESCITAM 10 mg",
+      "genericName": "ESCITALOPRAM OXALATE 10 MG"
+    },
+    {
+      "tradeName": "ESCITAM 20 mg",
+      "genericName": "ESCITALOPRAM OXALATE 20 MG"
+    },
+    {
+      "tradeName": "LINDYNETTE - 21 tabs",
+      "genericName": "ETHINYLESTRADIOL 0.03 MG + GESTODENE 0.075 MG"
+    },
+    {
+      "tradeName": "CINAC 30 mg",
+      "genericName": "CINACALCET HCL EQ. TO CINACALCET 30 MG"
+    },
+    {
+      "tradeName": "CINAC 60 mg",
+      "genericName": "CINACALCET HCL EQ. TO CINACALCET 60 MG"
+    },
+    {
+      "tradeName": "MIDIANA - 21 tabs",
+      "genericName": "ETHINYLESTRADIOL 0.03 MG + DROSPIRENONE 3 MG"
+    },
+    {
+      "tradeName": "LINID 2 mg",
+      "genericName": "LINEZOLID 2 MG"
+    },
+    {
+      "tradeName": "REXULTI 0.25 mg",
+      "genericName": "BREXPIPRAZOLE 0.25 MG"
+    },
+    {
+      "tradeName": "REXULTI 0.5 mg",
+      "genericName": "BREXPIPRAZOLE 0.5 MG"
+    },
+    {
+      "tradeName": "REXULTI 1 mg",
+      "genericName": "BREXPIPRAZOLE 1 MG"
+    },
+    {
+      "tradeName": "REXULTI 2 mg",
+      "genericName": "BREXPIPRAZOLE 2 MG"
+    },
+    {
+      "tradeName": "REXULTI 3 mg",
+      "genericName": "BREXPIPRAZOLE 3 MG"
+    },
+    {
+      "tradeName": "REXULTI 4 mg",
+      "genericName": "BREXPIPRAZOLE 4 MG"
+    },
+    {
+      "tradeName": "BELARA - 63 tabs",
+      "genericName": "ETHINYLESTRADIOL 0.03 MG + CHLORMADINONE ACETATE 2 MG"
+    },
+    {
+      "tradeName": "SOLFISAN 5 mg",
+      "genericName": "SOLIFENACIN SUCCINATE 5 MG"
+    },
+    {
+      "tradeName": "SOLFISAN 10 mg",
+      "genericName": "SOLIFENACIN SUCCINATE 10 MG"
+    },
+    {
+      "tradeName": "POSTINOR-2",
+      "genericName": "LEVONORGESTREL 0.75 MG"
+    },
+    {
+      "tradeName": "REGULON - 21 tabs",
+      "genericName": "DESOGESTREL 150 MCG + ETHINYLESTRADIOL 30 MCG"
+    },
+    {
+      "tradeName": "CEBO 200 mg",
+      "genericName": "CELECOXIB 200 MG"
+    },
+    {
+      "tradeName": "LISONORM 5/10 mg",
+      "genericName": "AMLODIPINE 5 MG + LISINOPRIL 10 MG"
+    },
+    {
+      "tradeName": "LISONORM 10/20 mg",
+      "genericName": "AMLODIPINE 10 MG + LISINOPRIL 20 MG"
+    },
+    {
+      "tradeName": "VIDONORM 10/8 mg",
+      "genericName": "AMLODIPINE 10 MG + PERINDOPRIL 8 MG"
+    },
+    {
+      "tradeName": "VIDONORM 5/4 mg",
+      "genericName": "AMLODIPINE 5 MG + PERINDOPRIL 4 MG"
+    },
+    {
+      "tradeName": "VIDONORM 5/8 mg",
+      "genericName": "AMLODIPINE 5 MG + PERINDOPRIL 8 MG"
+    },
+    {
+      "tradeName": "VIDONORM 10/4 mg",
+      "genericName": "AMLODIPINE 10 MG + PERINDOPRIL 4 MG"
+    },
+    {
+      "tradeName": "DUPHASTON 10 mg",
+      "genericName": "DYDROGESTERONE 10 MG"
+    },
+    {
+      "tradeName": "FANVIL 10 mg",
+      "genericName": "VARDENAFIL 10 MG"
+    },
+    {
+      "tradeName": "KLENDAM 300 mg",
+      "genericName": "CLINDAMYCIN HCL EQ. TO CLINDAMYCIN 300 MG"
+    },
+    {
+      "tradeName": "KURENAIL 5%",
+      "genericName": "AMOROLFINE HCL EQ. TO AMOROLFINE 5%"
+    },
+    {
+      "tradeName": "OMIPURE 1000 MG",
+      "genericName": "OMEGA-3 POLYUNSATURATED FATTY ACIDS"
+    },
+    {
+      "tradeName": "DIAOPTIM MR 60 mg",
+      "genericName": "GLICLAZIDE 60 MG"
+    },
+    {
+      "tradeName": "BITENS 20/5 mg",
+      "genericName": "OLMESARTAN 20 MG + AMLODIPINE 5 MG"
+    },
+    {
+      "tradeName": "BITENS 40/5 mg",
+      "genericName": "OLMESARTAN 20 MG + AMLODIPINE 10 MG"
+    },
+    {
+      "tradeName": "BITENS 40/10 mg",
+      "genericName": "OLMESARTAN 40 MG + AMLODIPINE 10 MG"
+    },
+    {
+      "tradeName": "VORIC 200 mg",
+      "genericName": "VORICONAZOLE 200 MG"
+    },
+    {
+      "tradeName": "VITRAM 500 mg",
+      "genericName": "LEVETIRACETAM 500 MG"
+    },
+    {
+      "tradeName": "MONTEK 4 mg",
+      "genericName": "MONTELUKAST 4 MG"
+    },
+    {
+      "tradeName": "MONTEK 5 mg",
+      "genericName": "MONTELUKAST 5 MG"
+    },
+    {
+      "tradeName": "MONTEK 10 mg",
+      "genericName": "MONTELUKAST 10 MG"
+    },
+    {
+      "tradeName": "VITRAM OS",
+      "genericName": "LEVETIRACETAM 100 MG/ML"
+    },
+    {
+      "tradeName": "EMEDAN 2 ml",
+      "genericName": "ONDANSETRON 4 MG/2 ML"
+    },
+    {
+      "tradeName": "EMEDAN 4 ml",
+      "genericName": "ONDANSETRON 8 MG/4 ML"
+    },
+    {
+      "tradeName": "LIXERA 3.5 mg/5 ml",
+      "genericName": "DRIED IVY LEAVES EXTRACT (10% HEDERACOSIDE C)"
+    },
+    {
+      "tradeName": "ELIVE 0.5 mg",
+      "genericName": "ENTECAVIR 0.5 MG"
+    },
+    {
+      "tradeName": "ELIVE 1 mg",
+      "genericName": "ENTECAVIR 1 MG"
+    },
+    {
+      "tradeName": "CIALIS 5 mg",
+      "genericName": "TADALAFIL 5 MG"
+    },
+    {
+      "tradeName": "CIALIS 20 mg",
+      "genericName": "TADALAFIL 20 MG"
+    },
+    {
+      "tradeName": "IMLA 5%",
+      "genericName": "LIDOCAINE 2.5% + PRILOCAINE 2.5%"
+    },
+    {
+      "tradeName": "SUTIXIB 12.5 mg",
+      "genericName": "SUNITINIB 12.5 MG"
+    },
+    {
+      "tradeName": "SUTIXIB 25 mg",
+      "genericName": "SUNITINIB 25 MG"
+    },
+    {
+      "tradeName": "SUTIXIB 50 mg",
+      "genericName": "SUNITINIB 50 MG"
+    },
+    {
+      "tradeName": "BISTROL 15 g",
+      "genericName": "BETA-SITOSTEROL 0.25% (ARACHIS OIL, SESAME OIL, RADIX SCUTELLARIA EXTRACT, CORTEX PHELLODENDRI EXTRACT & RHIZOMA COPTIDIS EXTRACT)"
+    },
+    {
+      "tradeName": "BISTROL 30 g",
+      "genericName": "BETA-SITOSTEROL 0.25% (ARACHIS OIL, SESAME OIL, RADIX SCUTELLARIA EXTRACT, CORTEX PHELLODENDRI EXTRACT & RHIZOMA COPTIDIS EXTRACT)"
+    },
+    {
+      "tradeName": "ROXBAN 10 mg",
+      "genericName": "RIVAROXABAN 10 MG"
+    },
+    {
+      "tradeName": "ROXBAN 15 mg",
+      "genericName": "RIVAROXABAN 15 MG"
+    },
+    {
+      "tradeName": "ROXBAN 20 mg",
+      "genericName": "RIVAROXABAN 20 MG"
+    },
+    {
+      "tradeName": "LIGRA",
+      "genericName": "LIRAGLUTIDE 6 MG/ML"
+    },
+    {
+      "tradeName": "TIMARD 5 mg",
+      "genericName": "TOFACITINIB CITRATE EQ. TO TOFACITINIB 5 MG"
+    },
+    {
+      "tradeName": "TIMARD 10 mg",
+      "genericName": "TOFACITINIB CITRATE EQ. TO TOFACITINIB 10 MG"
+    },
+    {
+      "tradeName": "NEUVITA-B",
+      "genericName": "VITAMIN B12 (METHYLCOBALAMINE 1000 MCG)"
+    },
+    {
+      "tradeName": "C-ZIN",
+      "genericName": "VITAMIN C + ZINC"
+    },
+    {
+      "tradeName": "TICAGRELOR 90 mg",
+      "genericName": "TICAGRELOR 90 MG"
+    },
+    {
+      "tradeName": "SONGHA NIGHT",
+      "genericName": "DRY EXTRACT OF VALERIAN ROOT 120 MG + DRY EXTRACT OF MELISSA LEAF 80 MG"
+    }
+  ]
+}
